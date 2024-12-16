@@ -340,7 +340,7 @@ a:hover
 	{
 		letter-spacing: 1px;
 		font-size: 0.90em;
-		color: rgba(255,255,255,0.6);
+		color:black;
 	}
 	
 	#copyright a

@@ -8,11 +8,11 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #383838;
+	background: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: #6c6c6c;
 }
 
 h1, h2, h3
@@ -754,6 +754,7 @@ img.az
 
 	#extra2
 	{
+		
 		overflow: hidden;
 		text-align: center;
 	}
@@ -863,4 +864,54 @@ img.az
 .span2 { }
 .pan2 img {  MAX-WIDTH:100PX;
     }
-		
+
+
+
+#extra1 p {
+	color: #000000;
+	-webkit-text-stroke: 0.1px white;
+}
+
+.title h2 {
+	color: #000000 !important;
+	-webkit-text-stroke: 0.5px white;
+}
+
+#footer{
+	width: 100%;
+}
+
+#page-wrapper{
+	width: 100%;
+}
+
+#copyright p{
+	color: black;
+}
+
+#page-wrapper, #footer, #copyright{
+	display: inline-flexbox;
+	width: 100%;
+}
+
+@media (max-width: 1214px) {
+	#header-wrapper{
+		width: 100%;
+	}
+}
+
+@media (max-width: 412px) {
+	#menu {
+		width: 100% !important;
+	}
+	html{
+		color: red !important;
+	}
+	#page-wrapper{
+		width: 100%;
+	}
+	#extra2 img{
+		height: 55px;
+		width: 80px;
+	}
+}
