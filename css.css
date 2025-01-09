@@ -894,10 +894,11 @@ img.az
 	width: 100%;
 }
 
-@media (max-width: 1214px) {
-	#header-wrapper{
+@media (min-width: 1214px) {
+	#header-featured{
 		width: 100%;
 	}
+
 }
 
 @media (max-width: 412px) {

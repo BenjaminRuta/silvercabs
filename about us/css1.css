@@ -154,6 +154,7 @@ a:hover
 {		
 		height: 8em;
 		background: url(images/header.jpg);
+		width: 100%;
 		
 		background-position: center;
 		background-size: cover;
